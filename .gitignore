@@ -1,0 +1,18 @@
+# Secrets — never commit these
+*.conf
+!scripts/*.example.conf
+*.key
+*.pem
+wg0.conf
+tailscale-authkey.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Termux/local
+*.log
